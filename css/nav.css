@@ -19,6 +19,13 @@
     font-size: 1ex;
 }
 
+.nav-ico {
+    height: 1vh;
+    width: auto;
+    margin: 0;
+    transform: translateY(-25%);
+}
+
 .wht {
     color: white;
     background-color: black;
