@@ -2,7 +2,10 @@
 .navbar {
     background: darkgreen;
     color: orange;
-    height: 100%;
+    height: 5%;
+    top:0;
+    width:100%;
+    position: sticky;
 }
 
 .navbar-brand,
