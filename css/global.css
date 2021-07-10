@@ -14,25 +14,28 @@ body {
 
 /* Header */
 .header {
-    position: absolute;
+    position: relative;
     height: 45vh;
     min-height: 25rem;
     width: 100%;
     overflow: hidden;
     background-color: #0e1726;
 }
+
+.header-fill {
+    position: relative;
+    background-color: white;
+    height: 100%;
+    width: 100%;
+}
+
 .header-img {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    max-height: 100%;
+    display: block;
+    height: 100%;
     width: auto;
-    height: auto;
+    margin-left: auto;
+    margin-right: auto;
     z-index: 0;
-    -ms-transform: translateX(-50%) translateY(-50%);
-    -moz-transform: translateX(-50%) translateY(-50%);
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
 }
 .header-blur {
     position: absolute;
