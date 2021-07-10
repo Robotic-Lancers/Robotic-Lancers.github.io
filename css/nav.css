@@ -1,11 +1,18 @@
 /* Navbar */
 .navbar {
+    z-index: 10;
+
     background: darkgreen;
     color: orange;
     height: 7vh;
     top:0;
     width:100%;
     position: sticky;
+}
+
+.navbar-collapse{
+    width: 100vw;
+    background: darkgreen;
 }
 
 .navbar-brand,
