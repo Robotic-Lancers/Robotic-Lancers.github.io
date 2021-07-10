@@ -15,7 +15,7 @@ body {
 /* Header */
 .header {
     position: relative;
-    height: 45vh;
+    height: 50vh;
     min-height: 25rem;
     width: 100%;
     overflow: hidden;
@@ -53,4 +53,6 @@ header .container {
 /* Content */
 .content {
     margin: 3vh 5vw 2vh;
+    font-size: 1em;
+    color: aliceblue;
 }
