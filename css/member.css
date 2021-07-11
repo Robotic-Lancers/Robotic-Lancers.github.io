@@ -1,9 +1,9 @@
 .member-img{
     overflow:hidden;
-    width: 10vh;
-    height: 10vh;
+    width: 20vh;
+    height: 20vh;
 }
 .member-container{
-    margin: 5vh 5vw 10vh 5vw;
+    margin: 3vh 3vw 5vh 3vw;
     float:left;
 }
