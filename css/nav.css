@@ -22,6 +22,9 @@
     text-align: center;
     margin:0 auto;
 }
+.justified{
+    transform: translateX(-50%);
+}
 
 .navbar-brand:hover,
 .nav-link:hover {

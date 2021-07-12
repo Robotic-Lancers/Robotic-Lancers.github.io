@@ -50,6 +50,16 @@ header .container {
     position: relative;
     z-index: 2;
 }
+.header-text{
+    color: white;
+    z-index: 3;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 10vh;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
 
 /* Content */
 .content {
