@@ -63,6 +63,7 @@ header .container {
 
 /* Content */
 .content {
+    text-align: center;
     margin: 3vh 5vw 2vh;
     font-size: 1em;
     color: aliceblue;
