@@ -61,10 +61,51 @@ header .container {
     transform: translate(-50%, -50%);
 }
 
+.footer{
+    background: darkgreen;
+    height: 10vh;
+}
+
+.footer-text{
+    color: white;
+    position: relative;
+    text-align: left;
+    margin-left: 5vh;
+    top: 50%;
+    transform: translateY(-50%);
+}
 /* Content */
 .content {
     text-align: center;
     margin: 3vh 5vw 2vh;
     font-size: 1em;
     color: aliceblue;
+}
+.content-blue{
+    text-align: center;
+    font-size: 1em;
+    color: white;
+    background-color: darkslateblue;
+}
+
+.node{
+    border-radius: 50%;
+    background-color: aquamarine;
+    width: 10vw;
+    height: 10vw;
+}
+
+.node-text{
+    position: relative;
+    text-align: center;
+    font-size: 1em;
+    color: brown;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.node:hover{
+    background-color: mediumaquamarine;
+    color: azure;
 }

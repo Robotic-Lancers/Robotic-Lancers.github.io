@@ -26,7 +26,9 @@
     transform: translateX(-50%);
 }
 
-.navbar-brand:hover,
+.navbar-brand:hover{
+    background-color: green;
+}
 .nav-link:hover {
     color: cadetblue;
 }
