@@ -31,12 +31,13 @@ body {
 
 .header-img {
     display: block;
+    position: relative;
     height: 100%;
     width: auto;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    z-index: 0;
+    z-index: 2;
 }
 .header-blur {
     position: absolute;
@@ -44,7 +45,7 @@ body {
     height: 100%;
     opacity: 0.5;
     background-color: black;
-    z-index: 1;
+    z-index: 3;
 }
 header .container {
     position: relative;
@@ -127,4 +128,14 @@ header .container {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+}
+.vid{
+    z-index: 1;
+    filter: blur(3px);
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    display: block;
+    width: auto;
+    height: 50vh;
 }
