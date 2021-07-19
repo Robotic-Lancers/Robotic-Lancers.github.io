@@ -34,10 +34,11 @@ body {
     position: relative;
     height: 100%;
     width: auto;
-    margin-left: auto;
     margin-right: auto;
     text-align: center;
     z-index: 2;
+    margin-left: 50%;
+    transform: translateX(-50%);
 }
 .header-blur {
     position: absolute;
