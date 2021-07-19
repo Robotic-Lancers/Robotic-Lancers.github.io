@@ -2,6 +2,7 @@
     overflow:hidden;
     width: 20vh;
     height: 20vh;
+    border-radius: 3%;
 }
 .member-container{
     margin: 3vh 5vw 5vh 5vw;

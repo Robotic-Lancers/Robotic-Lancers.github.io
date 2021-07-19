@@ -32,7 +32,7 @@
 
 .popup .popup-text{
     overflow:auto;
-    border-radius:5%;
+    border-radius:3%;
     transform: translate(-25%, -75%);
     display: block;
     width: 20vw;
