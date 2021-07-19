@@ -103,6 +103,7 @@ header .container {
     filter: blur(3px);
     display: block;
     width: auto;
+    max-width: 100%;
     height: 42vh;
     margin-left: auto;
     margin-right: auto;
